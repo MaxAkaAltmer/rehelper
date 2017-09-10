@@ -2860,9 +2860,8 @@ MainWindow::MainWindow(QWidget *parent)
 
     //HA9_test();
 
-    //makeTranslationFile("x:/Projects/PhoenixProject");
-    parceNetLists("x:/Projects/PhoenixProject_addition/jaguar/TOM");
-    //parceNetLists("x:/Projects/PhoenixProject_addition/jaguar/JERRY");
+    parceNetLists("./TOM");
+    //parceNetLists("./JERRY");
 }
 
 MainWindow::~MainWindow()
